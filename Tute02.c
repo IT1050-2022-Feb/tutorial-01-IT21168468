@@ -17,7 +17,7 @@ Distance -> 50
 Amount = 30 x 50 + (50-30) x 40 = 2300*/
 
 #include <stdio.h>
-
+// begin the main function
 int main() {
   
   int Distance; // declare variable
@@ -34,4 +34,4 @@ int main() {
   printf("Amount = Rs.%.2f", Amount); // display result
   
   return 0;
-}
+} // end of the main function
