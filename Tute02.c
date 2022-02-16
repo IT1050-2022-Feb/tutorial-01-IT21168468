@@ -20,5 +20,18 @@ Amount = 30 x 50 + (50-30) x 40 = 2300*/
 
 int main() {
   
+  int Distance; // declare variable
+  double Amount; // declare variable
+  
+  printf("Enter Distance : "); // get value
+  scanf("%d", &Distance); // read value
+  
+  if (Distance >= 20 && Distance < 50)
+    Amount = Distance * 50; // calculation
+  else
+    Amount = 30 * 50 + (Distance - 30) * 40; // calculation
+  
+  printf("Amount = Rs.%.2f", Amount); // display result
+  
   return 0;
 }
