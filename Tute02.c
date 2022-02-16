@@ -34,4 +34,5 @@ int main() {
   printf("Amount = Rs.%.2f", Amount); // display result
   
   return 0;
+  
 } // end of the main function
